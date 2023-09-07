@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4657CA2AA75AF700A388D5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA56E9C02AA7547D002C6B16 /* Pacifico-Regular.ttf */; };
+		BA4657CC2AA766E500A388D5 /* ujjawal-image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BA4657CB2AA766E500A388D5 /* ujjawal-image.jpeg */; };
 		BA56E9B22AA751F6002C6B16 /* ujjawal_card_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA56E9B12AA751F6002C6B16 /* ujjawal_card_swiftuiApp.swift */; };
 		BA56E9B42AA751F6002C6B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA56E9B32AA751F6002C6B16 /* ContentView.swift */; };
 		BA56E9B62AA751F6002C6B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA56E9B52AA751F6002C6B16 /* Assets.xcassets */; };
 		BA56E9B92AA751F6002C6B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA56E9B82AA751F6002C6B16 /* Preview Assets.xcassets */; };
+		BA56E9C32AA75855002C6B16 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA56E9C22AA75855002C6B16 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA4657CB2AA766E500A388D5 /* ujjawal-image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ujjawal-image.jpeg"; path = "../../../../../Downloads/ujjawal-image.jpeg"; sourceTree = "<group>"; };
+		BA4657CD2AA766F000A388D5 /* ujjawal-image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ujjawal-image.jpeg"; sourceTree = "<group>"; };
 		BA56E9AE2AA751F6002C6B16 /* ujjawal card swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ujjawal card swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA56E9B12AA751F6002C6B16 /* ujjawal_card_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ujjawal_card_swiftuiApp.swift; sourceTree = "<group>"; };
 		BA56E9B32AA751F6002C6B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA56E9B52AA751F6002C6B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA56E9B82AA751F6002C6B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA56E9C02AA7547D002C6B16 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		BA56E9C12AA755BB002C6B16 /* ujjawal-card-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ujjawal-card-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BA56E9C22AA75855002C6B16 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,8 @@
 		BA56E9A52AA751F6002C6B16 = {
 			isa = PBXGroup;
 			children = (
+				BA56E9C22AA75855002C6B16 /* Storyboard.storyboard */,
+				BA56E9BF2AA7546A002C6B16 /* fonts */,
 				BA56E9B02AA751F6002C6B16 /* ujjawal card swiftui */,
 				BA56E9AF2AA751F6002C6B16 /* Products */,
 			);
@@ -51,9 +61,11 @@
 		BA56E9B02AA751F6002C6B16 /* ujjawal card swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				BA56E9C12AA755BB002C6B16 /* ujjawal-card-swiftui-Info.plist */,
 				BA56E9B12AA751F6002C6B16 /* ujjawal_card_swiftuiApp.swift */,
 				BA56E9B32AA751F6002C6B16 /* ContentView.swift */,
 				BA56E9B52AA751F6002C6B16 /* Assets.xcassets */,
+				BA4657CD2AA766F000A388D5 /* ujjawal-image.jpeg */,
 				BA56E9B72AA751F6002C6B16 /* Preview Content */,
 			);
 			path = "ujjawal card swiftui";
@@ -62,9 +74,18 @@
 		BA56E9B72AA751F6002C6B16 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BA4657CB2AA766E500A388D5 /* ujjawal-image.jpeg */,
 				BA56E9B82AA751F6002C6B16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA56E9BF2AA7546A002C6B16 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA56E9C02AA7547D002C6B16 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA56E9B92AA751F6002C6B16 /* Preview Assets.xcassets in Resources */,
+				BA4657CC2AA766E500A388D5 /* ujjawal-image.jpeg in Resources */,
+				BA4657CA2AA75AF700A388D5 /* Pacifico-Regular.ttf in Resources */,
 				BA56E9B62AA751F6002C6B16 /* Assets.xcassets in Resources */,
+				BA56E9C32AA75855002C6B16 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +294,7 @@
 				DEVELOPMENT_TEAM = VV5T6CSPMZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ujjawal-card-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +324,7 @@
 				DEVELOPMENT_TEAM = VV5T6CSPMZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ujjawal-card-swiftui-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
